@@ -6,7 +6,7 @@ const ProductTag = require('./ProductTag');
 
 // Products belongsTo Category
 
-Product.bleongsTo(Category);
+Product.belongsTo(Category);
 
 // Categories have many Products
 
